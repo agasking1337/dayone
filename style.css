@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@400;600&display=swap');
+
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+
+}
+
+.intro{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: url(./img/calabria1.jpg);
+    display: table;
+    top: 0;
+    background-size: cover;
+}
+
+.intro .inner{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+
+}
+
+.content{
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+.content h1{
+    font-family: 'Lobster', cursive;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 300px #000;
+    font-size: 500%;
+}
+
+.btn{
+    border-radius: 9px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 135%;
+    padding: 10px 20px;
+    border: solid #fff 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.btn:hover{
+    color: lightgreen;
+    border: solid #fff 3px;
+}
+
+
+p{
+    font-size: 160%;
+    line-height: 210%;
+    text-align: justify;
+    margin: 3%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 15%;
+    background: url(./img/footer.jpg);
+    background-repeat: round;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    font-size: 210%;
+}
+
+li{
+    list-style: none;
+    margin: 10px 30px;
+    display: inline-block;
+    font-size: 50px;
+    padding: 20px 20px;
+    color: #fff;
+}
+
+
+@media screen and (max-width: 768px) {
+    .content h1 {
+        font-size: 250%;
+    }
+    .btn {
+        font-size: 110%;
+        padding: 7px 15px;
+    }
+    p {
+        font-size: 100%;
+        line-height: 160%;
+    }
+    .footer{
+        font-size: 100%;
+        height: 10%;
+    }
+    li{
+        font-size: 20px;
+    }
+}
